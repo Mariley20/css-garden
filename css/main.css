@@ -1,0 +1,55 @@
+/* Agrega aquí tus estilos*/
+h1 {
+	font-family: 'Merriweather', serif;
+	font-size: 50px;
+	color: #07651F;
+	text-align: center;
+}
+h2 {
+	font-family: 'Merriweather', serif;
+	font-size: 25px;
+	color: #048E1B;
+}
+h3 {
+	font-size: 20px;
+	color: #048E1B;
+}
+p {
+	font-family: 'Slabo 27px', serif;
+	color: #032216;
+	margin-left: 3.05%;
+}
+a {
+	color:#006400;
+	background-color:#f1f1f1;
+	padding-left:4px;
+	padding-right:4px;
+	border-radius: 5px;
+	font-size: 100%;
+}
+a:hover {
+	font-size:18px;
+}
+abbr {
+	font-weight: bold;
+	padding 4px;
+	text-decoration-line: none;
+}
+#css-zen-garden {
+	margin-top: 3%;
+	margin-right: 3%;
+	margin-left: 3%;
+}
+.design-selection, .design-archives, .zen-resources {
+    background-color: #deefd7;
+    padding: 0.01em 16px;
+    margin: 20px 0;
+    box-shadow: 4px 5px 10px 0 #bace6d, 0 2px 10px 0 rgba(0,0,0,0.12);
+}
+
+ul {
+	list-style: none;
+    background-color: #fff;
+    padding: 8px 12px;
+    border-left: 6px solid #6dce71;
+}
