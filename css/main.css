@@ -4,11 +4,28 @@ h1 {
 	font-size: 50px;
 	color: #07651F;
 	text-align: center;
+	text-shadow: 0px 0px 10px #FFF,
+	/* Parte de luz */
+4px 2px 12px #DCB500,
+-4px 2px 12px #DCB500,
+/* Subida del fuego */
+0px -6px 14px #FF7A00,
+0px -12px 14px #FF6300,
+0px -20px 14px #FF4400,
+/* Azuleo de la llama */
+0px -30px 14px #0A7BFF;
 }
 h2 {
 	font-family: 'Merriweather', serif;
 	font-size: 25px;
 	color: #048E1B;
+	text-shadow: 0px 0px 10px #FFF,
+	/* Parte de luz */
+4px 2px 12px #DCB500,
+-4px 2px 12px #DCB500,
+/* Subida del fuego */
+0px -6px 14px #FF7A00,
+0px -12px 14px #FF6300;
 }
 h3 {
 	font-size: 20px;
@@ -30,6 +47,7 @@ a {
 a:hover {
 	font-size:18px;
 }
+
 abbr {
 	font-weight: bold;
 	padding 4px;
@@ -52,4 +70,16 @@ ul {
     background-color: #fff;
     padding: 8px 12px;
     border-left: 6px solid #6dce71;
+}
+footer {
+	background-color: #4CAF50;
+	border-radius: 10px;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+header {
+	background-image: url(../img/head.gif);
+	
 }
